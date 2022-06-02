@@ -9,7 +9,6 @@ Tag.init(
     // define columns
     tag_id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       autoIncrement: true,
       primaryKey: true,
     },
